@@ -10,3 +10,9 @@ function fuzzyMatch(array, match){
     return matchIt[0] === match[0];
   })
 }
+
+function matchName(array, name){
+  return array.filter(function(matchIt){
+    return matchit.name === name
+  })
+}
