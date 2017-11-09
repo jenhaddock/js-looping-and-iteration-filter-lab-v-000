@@ -13,6 +13,6 @@ function fuzzyMatch(array, match){
 
 function matchName(array, name){
   return array.filter(function(matchIt){
-    return matchit.name === name
+    return matchIt.name === name
   })
 }
