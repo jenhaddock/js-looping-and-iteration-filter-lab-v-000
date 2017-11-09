@@ -7,6 +7,6 @@ function findMatching(array, match){
 
 function fuzzyMatch(array, match){
   return array.filter(function(matchIt){
-    return matchIt[0] === match
+    return matchIt[0] === match;
   })
 }
